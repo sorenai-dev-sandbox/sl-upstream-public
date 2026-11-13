@@ -1,8 +1,0 @@
-name: s1f-ci
-on: pull_request
-permissions: {}
-jobs:
-  probe:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "s1f event=${{ github.event_name }} actor=${{ github.actor }}"
